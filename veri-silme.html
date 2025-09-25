@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC Servis Takip - Veri Silme</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { background: #ff9800; color: white; padding: 20px 0; margin-bottom: 30px; }
+        .logo { font-size: 24px; font-weight: bold; text-align: center; }
+        h1 { color: #ff9800; margin-bottom: 20px; font-size: 28px; }
+        h2 { color: #f57c00; margin: 25px 0 15px 0; font-size: 20px; }
+        .section { margin-bottom: 30px; background: #f9f9f9; padding: 20px; border-radius: 8px; }
+        ul, ol { margin-left: 20px; }
+        li { margin-bottom: 8px; }
+        .info { background: #fff3e0; border: 1px solid #ff9800; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .footer { text-align: center; margin-top: 40px; padding: 20px; background: #f1f1f1; border-radius: 8px; }
+        .back-button { background: #757575; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-bottom: 20px; display: inline-block; }
+        .back-button:hover { background: #616161; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">🗂️ Veri Silme</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-button">← Ana Sayfaya Dön</a>
+        
+        <h1>🗂️ Veri Silme Bilgileri</h1>
+        
+        <div class="info">
+            <h3>ℹ️ BİLGİ:</h3>
+            <p>Bu sayfa veri silme işlemleri hakkında detaylı bilgi sağlar.</p>
+        </div>
+
+        <div class="section">
+            <h2>🔄 Otomatik Veri Silme</h2>
+            <p>Hesabınızı sildiğinizde aşağıdaki veriler otomatik olarak silinir:</p>
+            <ul>
+                <li><strong>Veli Verileri:</strong> Ad, soyad, e-posta, telefon, şifre</li>
+                <li><strong>Öğrenci Verileri:</strong> Ad, soyad, okul, sınıf, NFC kart ID</li>
+                <li><strong>Servis Geçmişi:</strong> Tüm biniş/iniş kayıtları</li>
+                <li><strong>Teknik Veriler:</strong> Firebase UID, FCM token, cihaz bilgileri</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>⏰ Silme Zamanlaması</h2>
+            <ul>
+                <li><strong>Anında:</strong> Hesap erişimi kapatılır</li>
+                <li><strong>24-48 saat:</strong> Aktif veriler silinir</li>
+                <li><strong>30 gün:</strong> Yedekleme sistemlerinden temizlenir</li>
+                <li><strong>Maksimum 2 yıl:</strong> Log kayıtları (anonim) silinir</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛡️ Yasal Gereklilikler</h2>
+            <ul>
+                <li>KVKK kapsamında veri silme hakkınız vardır</li>
+                <li>COPPA uyumlu çocuk veri silme işlemleri</li>
+                <li>Yasal zorunluluk olmadıkça veri saklanmaz</li>
+                <li>Mahkeme kararı olmadıkça üçüncü taraf paylaşım yapılmaz</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🔒 Güvenlik Önlemleri</h2>
+            <ul>
+                <li>Silinen veriler kurtarılamaz</li>
+                <li>Şifrelenmiş yedekler de silinir</li>
+                <li>Veritabanından fiziksel silme işlemi</li>
+                <li>Firebase güvenlik kuralları ile korunur</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📋 Doğrulama</h2>
+            <p>Veri silme işleminin tamamlandığını doğrulamak için:</p>
+            <ul>
+                <li>Hesabınızla giriş yapmayı deneyin (başarısız olmalı)</li>
+                <li>Öğrenci biniş/iniş bilgileri görünmemelidir</li>
+                <li>Bildirimler gelmemelidir</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 NFC Servis Takip</strong></p>
+            <p>KVKK uyumlu veri silme işlemleri</p>
+        </div>
+    </div>
+</body>
+</html>
