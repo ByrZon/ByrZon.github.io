@@ -3,157 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFC Servis Takip - Gizlilik Politikası</title>
+    <title>NFC Servis Takip - Ana Sayfa</title>
     <meta name="description" content="NFC Servis Takip uygulaması gizlilik politikası ve hesap silme işlemleri">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
         .container { max-width: 800px; margin: 0 auto; padding: 20px; }
         header { background: #2196F3; color: white; padding: 20px 0; margin-bottom: 30px; }
-        .logo { font-size: 24px; font-weight: bold; }
-        nav { margin-top: 10px; }
-        nav a { color: white; text-decoration: none; margin-right: 20px; padding: 5px 10px; border-radius: 3px; }
-        nav a:hover { background: rgba(255,255,255,0.2); }
-        h1 { color: #2196F3; margin-bottom: 20px; font-size: 28px; }
-        h2 { color: #1976D2; margin: 25px 0 15px 0; font-size: 20px; }
-        .section { margin-bottom: 30px; background: #f9f9f9; padding: 20px; border-radius: 8px; }
-        ul { margin-left: 20px; }
-        li { margin-bottom: 8px; }
-        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin: 20px 0; }
-        .footer { text-align: center; margin-top: 40px; padding: 20px; background: #f1f1f1; border-radius: 8px; }
-        .button { display: inline-block; background: #2196F3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 10px 5px; }
+        .logo { font-size: 24px; font-weight: bold; text-align: center; }
+        h1 { color: #2196F3; margin-bottom: 20px; font-size: 28px; text-align: center; }
+        .section { margin-bottom: 30px; background: #f9f9f9; padding: 30px; border-radius: 8px; }
+        .button { display: inline-block; background: #2196F3; color: white; padding: 15px 25px; text-decoration: none; border-radius: 5px; margin: 10px; font-size: 16px; text-align: center; width: 200px; }
         .button:hover { background: #1976D2; }
         .delete-button { background: #f44336; }
         .delete-button:hover { background: #d32f2f; }
+        .buttons { text-align: center; margin: 30px 0; }
+        .footer { text-align: center; margin-top: 40px; padding: 20px; background: #f1f1f1; border-radius: 8px; }
+        .description { text-align: center; margin: 20px 0; font-size: 18px; }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">🚌 NFC Servis Takip</div>
-            <nav>
-                <a href="#home">Ana Sayfa</a>
-                <a href="#privacy">Gizlilik Politikası</a>
-                <a href="#delete">Hesap Silme</a>
-                <a href="#contact">İletişim</a>
-            </nav>
         </div>
     </header>
 
     <div class="container">
-        <section id="home">
-            <h1>NFC Servis Takip - Gizlilik Politikası</h1>
-            <p><strong>Sürüm:</strong> v2.0-2025-09-25 | <strong>Son Güncelleme:</strong> 25 Eylül 2025</p>
-            
-            <div class="section">
-                <h2>🛡️ Veri Güvenliğiniz Önceliğimiz</h2>
-                <p>Bu gizlilik politikası, NFC Servis Takip mobil uygulamasının kişisel verileri nasıl topladığını, kullandığını, sakladığını ve koruduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
-                
-                <div style="text-align: center; margin: 20px 0;">
-                    <a href="#privacy" class="button">📋 Gizlilik Politikasını Oku</a>
-                    <a href="#delete" class="button delete-button">🗑️ Hesap Silme</a>
-                </div>
+        <h1>NFC Servis Takip</h1>
+        <p class="description">Öğrenci servis takip uygulaması gizlilik ve hesap yönetimi</p>
+        
+        <div class="section">
+            <div class="buttons">
+                <a href="gizlilik-politikasi.html" class="button">📋 Gizlilik Politikası</a>
+                <a href="hesap-silme.html" class="button delete-button">🗑️ Hesap Silme</a>
+                <a href="veri-silme.html" class="button delete-button">🗂️ Veri Silme</a>
             </div>
-        </section>
+        </div>
 
-        <section id="privacy" class="section">
-            <h1>📋 Gizlilik Politikası</h1>
-            
-            <h2>1. VERİ SORUMLUSU</h2>
-            <ul>
-                <li><strong>Veri Sorumlusu:</strong> NFC Servis Takip Uygulaması</li>
-                <li><strong>Faaliyet:</strong> Öğrenci servis takip hizmetleri</li>
-                <li><strong>İletişim:</strong> Uygulama destek sistemi</li>
-            </ul>
-
-            <h2>2. TOPLANAN VERİLER</h2>
-            
-            <h3>2.1. Veli Bilgileri (KVKK Kapsamı):</h3>
-            <ul>
-                <li>Ad, soyad, e-posta, telefon</li>
-                <li>Şifre </li>
-                <li>Hesap tarihleri</li>
-            </ul>
-
-            <h3>2.2. Öğrenci Bilgileri (COPPA Kapsamı - 13 yaş altı dahil):</h3>
-            <ul>
-                <li>Öğrenci adı/soyadı</li>
-                <li>Okul adı ve sınıf</li>
-                <li>NFC kart kimlik numarası</li>
-                <li>Servis biniş/iniş kayıtları</li>
-                <li>Devamsızlık bilgileri</li>
-            </ul>
-
-            <h3>2.3. Şoför Bilgileri:</h3>
-            <ul>
-                <li>Ad, soyad, e-posta</li>
-                <li>Araç plaka bilgisi</li>
-                <li>Servis kayıtları</li>
-            </ul>
-
-            <h3>2.4. Teknik Veriler:</h3>
-            <ul>
-                <li>Firebase UID</li>
-                <li>FCM push token</li>
-                <li>Cihaz bilgileri (hashlenerek)</li>
-                <li>Kullanım logları</li>
-            </ul>
-
-            <div class="warning">
-                <h3>⚠️ COPPA UYARI:</h3>
-                <p>13 yaş altı çocukların verilerinin işlenmesi için veli onayı gereklidir. Bu uygulama ebeveynlerin çocuklarının güvenliğini takip etmesine yardımcı olur.</p>
-            </div>
-
-            <h2>3. VERİ GÜVENLİĞİ</h2>
-            <ul>
-                <li>Tüm veriler Google Firebase bulutunda saklanır</li>
-                <li>Cihazda hiçbir kişisel veri depolanmaz</li>
-                <li>Şifreler SHA-256 ile hashlenir</li>
-                <li>HTTPS ile şifrelenmiş aktarım</li>
-                <li>Firebase App Check güvenliği</li>
-            </ul>
-
-            <h2>4. KULLANICI HAKLARI (KVKK)</h2>
-            <ul>
-                <li>Verilerinizin işlenip işlenmediğini öğrenme</li>
-                <li>İşlenen veriler hakkında bilgi talep etme</li>
-                <li>Eksik/yanlış verilerin düzeltilmesini isteme</li>
-                <li>Verilerin silinmesini isteme</li>
-                <li>İşleme itiraz etme</li>
-            </ul>
-        </section>
-
-        <section id="delete" class="section">
-            <h1>🗑️ Hesap Silme İşlemleri</h1>
-            
-            <h2>Uygulama İçi Silme (Önerilen)</h2>
-            <ol>
-                <li>NFC Servis Takip uygulamasını açın</li>
-                <li><strong>Ayarlar</strong> > <strong>Hesabımı Sil</strong>'e tıklayın</li>
-                <li>Onay verin - işlem hemen gerçekleşir</li>
-                <li>Çocuk/öğrenci verileri de otomatik silinir</li>
-            </ol>
-
-            <h2>Manuel Talep</h2>
-            <p>Uygulama erişiminiz yoksa:</p>
-            <ul>
-                <li>Kayıtlı olduğunuz şoförünüzle iletişime geçebilirsiniz.</li>
-            </ul>
-
-            <h2>⏱️ Veri Silme Süreci</h2>
-            <ul>
-                <li>Hesap silme sonrası 30 gün içinde tüm veriler silinir</li>
-                <li>Çocuk/öğrenci verileri de tamamen kaldırılır</li>
-                <li>İşlem geri alınamaz</li>
-                <li>Silme işlemi 24-48 saat içinde tamamlanır</li>
-            </ul>
-        </section>
-
-       
         <div class="footer">
             <p><strong>© 2025 NFC Servis Takip</strong></p>
             <p>KVKK, COPPA ve Google Play uyumlu olarak hazırlanmıştır.</p>
-            <p><small>Bu sayfa <a href="https://github.com/username/nfc-servis-takip-privacy" target="_blank">GitHub Pages</a> ile hostlanmaktadır.</small></p>
         </div>
     </div>
 </body>
