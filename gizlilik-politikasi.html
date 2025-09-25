@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC Servis Takip - Gizlilik Politikası</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { background: #2196F3; color: white; padding: 20px 0; margin-bottom: 30px; }
+        .logo { font-size: 24px; font-weight: bold; text-align: center; }
+        h1 { color: #2196F3; margin-bottom: 20px; font-size: 28px; }
+        h2 { color: #1976D2; margin: 25px 0 15px 0; font-size: 20px; }
+        h3 { color: #424242; margin: 20px 0 10px 0; font-size: 16px; }
+        .section { margin-bottom: 30px; background: #f9f9f9; padding: 20px; border-radius: 8px; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 8px; }
+        .warning { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .footer { text-align: center; margin-top: 40px; padding: 20px; background: #f1f1f1; border-radius: 8px; }
+        .back-button { background: #757575; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-bottom: 20px; display: inline-block; }
+        .back-button:hover { background: #616161; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">🚌 NFC Servis Takip</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-button">← Ana Sayfaya Dön</a>
+        
+        <h1>📋 Gizlilik Politikası</h1>
+        <p><strong>Sürüm:</strong> v2.0-2025-09-25 | <strong>Son Güncelleme:</strong> 25 Eylül 2025</p>
+        
+        <div class="section">
+            <p>Bu gizlilik politikası, NFC Servis Takip mobil uygulamasının kişisel verileri nasıl topladığını, kullandığını, sakladığını ve koruduğunu açıklar. Uygulamayı kullanarak bu politikayı kabul etmiş sayılırsınız.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. VERİ SORUMLUSU</h2>
+            <ul>
+                <li><strong>Veri Sorumlusu:</strong> NFC Servis Takip Uygulaması</li>
+                <li><strong>Faaliyet:</strong> Öğrenci servis takip hizmetleri</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2. TOPLANAN VERİLER</h2>
+            
+            <h3>2.1. Veli Bilgileri (KVKK Kapsamı):</h3>
+            <ul>
+                <li>Ad, soyad, e-posta, telefon</li>
+                <li>Şifre (SHA-256 ile hashlenmiş)</li>
+                <li>Hesap tarihleri</li>
+            </ul>
+
+            <h3>2.2. Öğrenci Bilgileri (COPPA Kapsamı - 13 yaş altı dahil):</h3>
+            <ul>
+                <li>Öğrenci adı/soyadı</li>
+                <li>Okul adı ve sınıf</li>
+                <li>NFC kart kimlik numarası</li>
+                <li>Servis biniş/iniş kayıtları</li>
+                <li>Devamsızlık bilgileri</li>
+            </ul>
+
+            <h3>2.3. Şoför Bilgileri:</h3>
+            <ul>
+                <li>Ad, soyad, e-posta</li>
+                <li>Araç plaka bilgisi</li>
+                <li>Servis kayıtları</li>
+            </ul>
+
+            <h3>2.4. Teknik Veriler:</h3>
+            <ul>
+                <li>Firebase UID</li>
+                <li>FCM push token</li>
+                <li>Cihaz bilgileri (hashlenerek)</li>
+                <li>Kullanım logları</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. VERİ TOPLAMA AMACI</h2>
+            <ul>
+                <li>Öğrenci servis takip hizmeti</li>
+                <li>Güvenlik ve kimlik doğrulama</li>
+                <li>Bildirim gönderme</li>
+                <li>Uygulama performans takibi</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. VERİ GÜVENLİĞİ</h2>
+            <ul>
+                <li>Tüm veriler Google Firebase bulutunda saklanır</li>
+                <li>Cihazda hiçbir kişisel veri depolanmaz</li>
+                <li>Şifreler SHA-256 ile hashlenir</li>
+                <li>HTTPS ile şifrelenmiş aktarım</li>
+                <li>Firebase App Check güvenliği</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. ÇOCUK GİZLİLİĞİ (COPPA)</h2>
+            <ul>
+                <li>13 yaş altı çocuk verileri sadece veli onayı ile toplanır</li>
+                <li>Çocuklardan marketing verisi toplanmaz</li>
+                <li>Veli istediği zaman çocuk verilerini silebilir</li>
+                <li>Çocuk verileri eğitim ve güvenlik amaçlıdır</li>
+            </ul>
+            
+            <div class="warning">
+                <h3>⚠️ COPPA UYARI:</h3>
+                <p>13 yaş altı çocukların verilerinin işlenmesi için veli onayı gereklidir. Bu uygulama ebeveynlerin çocuklarının güvenliğini takip etmesine yardımcı olur.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>6. KULLANICI HAKLARI (KVKK)</h2>
+            <ul>
+                <li>Verilerinizin işlenip işlenmediğini öğrenme</li>
+                <li>İşlenen veriler hakkında bilgi talep etme</li>
+                <li>Eksik/yanlış verilerin düzeltilmesini isteme</li>
+                <li>Verilerin silinmesini isteme</li>
+                <li>İşleme itiraz etme</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. VERİ PAYLAŞIMI</h2>
+            <ul>
+                <li>Veriler üçüncü taraflarla paylaşılmaz</li>
+                <li>Sadece ilgili veli-öğrenci-şoför arasında paylaşım</li>
+                <li>Yasal zorunluluk halinde mahkeme kararı ile</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. VERİ SAKLAMA SÜRESİ</h2>
+            <ul>
+                <li>Hesap aktif olduğu sürece</li>
+                <li>Hesap silme sonrası 30 gün içinde tamamen silinir</li>
+                <li>Log kayıtları maksimum 2 yıl</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>9. ÜÇÜNCÜ TARAF HİZMETLER</h2>
+            <ul>
+                <li>Google Firebase (Authentication, Database, Functions)</li>
+                <li>Google Play Services</li>
+                <li>Firebase Analytics (anonim)</li>
+                <li>Firebase Crashlytics (hassas veriler hariç)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. POLİTİKA DEĞİŞİKLİKLERİ</h2>
+            <ul>
+                <li>Bu politika gerektiğinde güncellenebilir</li>
+                <li>Önemli değişiklikler bildirilir</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2025 NFC Servis Takip</strong></p>
+            <p>KVKK, COPPA ve Google Play uyumlu olarak hazırlanmıştır.</p>
+        </div>
+    </div>
+</body>
+</html>
